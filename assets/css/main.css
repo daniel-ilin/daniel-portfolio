@@ -788,6 +788,18 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
+			.navbar a {
+				float: left;
+				display: block;
+				color: #000000;
+				text-align: center;
+				font-size: 0.9em;
+				/* border-bottom: solid;   */
+				/* padding-bottom: 0.3em;   */
+				margin-bottom: 1em;  
+				text-decoration: none;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1032,6 +1044,19 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+
+			/* Links inside the navbar */
+		.navbar a {
+			float: left;
+			display: block;
+			color: #000000;
+			text-align: center;
+			font-size: 0.5em;
+			/* border-bottom: solid;   */
+			/* padding-bottom: 0.3em;   */
+			margin-bottom: 1em;  
+			text-decoration: none;
+		}
 
 			.row {
 				display: flex;
@@ -3056,6 +3081,19 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
+
+		.navbar a {
+			float: left;
+			display: block;
+			color: #000000;
+			text-align: center;
+			font-size: 0.9em;
+			/* border-bottom: solid;   */
+			/* padding-bottom: 0.3em;   */
+			margin-bottom: 1em;  
+			text-decoration: none;
+		}
+
 		/* Basic */
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
@@ -3138,6 +3176,18 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+		.navbar a {
+			float: left;
+			display: block;
+			color: #000000;
+			text-align: center;
+			font-size: 0.7em;
+			/* border-bottom: solid;   */
+			/* padding-bottom: 0.3em;   */
+			margin-bottom: 1em;  
+			text-decoration: none;
+		}
+
 		/* Basic */
 
 			h1 {
@@ -3215,6 +3265,18 @@ input, select, textarea {
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
+
+		.navbar a {
+			float: left;
+			display: block;
+			color: #000000;
+			text-align: center;
+			font-size: 0.5em;
+			/* border-bottom: solid;   */
+			/* padding-bottom: 0.3em;   */
+			margin-bottom: 1em;  
+			text-decoration: none;
+		}
 
 		/* Header */
 
