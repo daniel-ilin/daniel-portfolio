@@ -100,7 +100,7 @@ input, select, textarea {
 		
 	body, input, select, textarea {
 		color: #3d3d3d;
-		font-family: "Monaco", Monaco, sans-serif;
+		font-family: "Menlo", Monaco, sans-serif;
 		/* font-family: "Anonymous Pro", Anonymous Pro, sans-serif; */
 		
 		font-size: 16pt;
