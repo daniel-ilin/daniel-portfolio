@@ -132,18 +132,19 @@
 				<!-- Two -->
 					<section id="two" style="border-bottom: solid 2px #efefef; padding-bottom: 2em;">
 						<h1>Recent Projects</h1>						
-						<div class="row">																					
+						<div class="row">
+																												
 							<article class="col-6 col-12-xsmall work-item" id="projectData" style="font-size:110%; border:1px solid rgb(0 0 0 / 0.1); padding-right: 2em; padding-top: 1em;">
 								<h3><h2>Equal Split (<a href="https://apps.apple.com/us/app/equal-split/id1596676542" target="_blank" rel="noopener noreferrer">App Store</a>)</h2></h3>
-								<p1 style="font-size: 90%;">Tools: Swift, CoreData, UserDefaults</p1>
+								<p1 style="font-size: 90%;">Tools: CoreData, UserDefaults, UIKit</p1>
 								<br>
 								<br>
 								<a href="images/fulls/equalsplit.png" class="image fit thumb"><img src="images/thumbs/equalsplit.png" alt="" /></a>								
 								<h3><a href="https://github.com/daniel-ilin/Equal_Split" target="_blank" rel="noopener noreferrer">GitHub: Equal Split</a></h3>
-								<p><h3 style="color: rgb(58, 58, 58); font-family: 'Menlo', Bitstream Vera Sans Mono, sans-serif; font-size: 80%; line-height: 1.8em;"><br>The goal was to create easy-to-use iOS budgeting app that allows to keep track of spending within a group. The user inputs the people within the group and their monetary contribution. In return, the app runs an algorithm that tells the user the minimum number of transactions between the people in the group that must be performed so that the money is split equally among all group members. 
+								<p><h3 style="color: rgb(58, 58, 58); font-family: 'Menlo', Bitstream Vera Sans Mono, sans-serif; font-size: 80%; line-height: 1.8em;"><br>The goal was to fully develop a simple yet useful iOS application and successfuly push to App Store. This app allows to keep track of spending within a group. The user inputs the people within the group and their monetary contribution. In return, the app runs an algorithm that finds the minimum number of transactions between the people in the group necessary for the money to be split equally. 
 									​<br>
-									​<br>The UI was built using UIKit, both programatically and using Storyboards. CoreData is used for persistent storage.									
-									The app provides fully functional logic with animated user friendly interface and dark mode support. It can already be used offline to keep track of spendings across multiple sessions.									​
+									​<br>The UI was built using UIKit, both programatically and using Storyboards. CoreData is used for data persistent.									
+									The app provides fully functional logic with user-friendly animated interface and dark mode support. It is available on the App Store and is used to casually keep track of spendings offline.​
 									<br>
 									<br>									
 								</h3>
@@ -152,12 +153,12 @@
 							
 							<article class="col-6 col-12-xsmall work-item" id="projectData" style="font-size:110%; border:1px solid rgb(0 0 0 / 0.1); padding-right: 2em; padding-top: 1em;">
 								<h3><h2>Instagram Clone</h2></h3>
-								<p1 style="font-size: 90%;">Tools: Swift, Firebase, Swift Package Manager, UIKit</p1>
+								<p1 style="font-size: 90%;">Tools: Firebase, Swift Package Manager, UIKit</p1>
 								<br>
 								<br>
 								<a href="images/fulls/instagramclone.png" class="image fit thumb"><img src="images/thumbs/instagramclone.png" alt="" /></a>								
 								<h3><a href="https://github.com/daniel-ilin/Instagram-Clone" target="_blank" rel="noopener noreferrer">GitHub: Instagram Clone</a></h3>
-								<p><h3 style="color: rgb(58, 58, 58); font-family: 'Menlo', Bitstream Vera Sans Mono, sans-serif; font-size: 80%; line-height: 1.8em;"><br>My goal was to use Cloud Firestore REST API and Swift Package Manager in a single project. This Instagram clone contains Login and Registration pages which allow the user to authenticate through Firebase Authentication. Authenticated users can upload photos from their gallery using YPImagePicker as well as view other users' photos. All data is stored using Firestore.
+								<p><h3 style="color: rgb(58, 58, 58); font-family: 'Menlo', Bitstream Vera Sans Mono, sans-serif; font-size: 80%; line-height: 1.8em;"><br>The goal was to learn and utilize Cloud Firestore REST API as well as Swift Package Manager because earlier I only had experience with CocoaPods. This Instagram clone contains Login and Registration pages allowing the user to authenticate through Firebase Authentication. Authenticated users can upload photos from their gallery using YPImagePicker dependency as well as view other users' photos. All data is stored using Firestore.
 									​<br>
 									​<br>The UI was built fully programmitcally with UIKit. The project is built using MVVM architectural pattern. 
 									<br>
@@ -166,6 +167,22 @@
 								</p>								
 							</article>	
 
+							
+							<article class="col-6 col-12-xsmall work-item" id="projectData" style="font-size:110%; border:1px solid rgb(0 0 0 / 0.1); padding-right: 2em; padding-top: 1em;">
+								<h3><h2>SmartCaption</h2></h3>
+								<p1 style="font-size: 90%;">Tools: URLSession, UIKit, Swift </p1>
+								<br>
+								<br>
+								<a href="images/fulls/smartcaption.png" class="image fit thumb"><img src="images/thumbs/smartcaption.png" alt="" /></a>								
+								<h3><a href="https://github.com/daniel-ilin/SmartCaption" target="_blank" rel="noopener noreferrer">GitHub: SmartCaption</a></h3>
+								<p><h3 style="color: rgb(58, 58, 58); font-family: 'Menlo', Bitstream Vera Sans Mono, sans-serif; font-size: 80%; line-height: 1.8em;"><br>I wanted to create an application where all API calls are performed using URLSession. SmartCaption allows the user a smart way to automatically caption their images through uploading the photo to a machine learning tagging endpoint from Imagga and then retrieving a fitting quote from another source based on these tags. Currently this app successfuly tags the users' images, however, the quote API is currently being worked on.
+									​<br>
+									​<br>The main obstacle was sending POST requests with multipart/form-data as URLSession does not support this functionality by itself. I built this project using MVC architectural pattern with a few additional View Models for a more responsive UI.
+									<br>
+									<br>									
+								</h3>
+								</p>								
+							</article>	
 
 						<ul class="actions">
 							<!-- <li><a href="#" class="button">Full Portfolio</a></li> -->
